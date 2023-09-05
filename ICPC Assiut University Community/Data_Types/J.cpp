@@ -12,6 +12,6 @@ int main(){
             }
         }
         if(flag)
-            cout<<i<<'\n';
+            cout<<i<<" ";
     }
 }
