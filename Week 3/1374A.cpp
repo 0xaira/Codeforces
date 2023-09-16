@@ -9,7 +9,11 @@ const int INF = 1e18;
 
 
 void solve(){
+    int x, y, n;
+    cin >> x >> y >> n;
 
+    int k = ((n - y) / x) * x + y;
+    cout << k << endl;
 }
 
 signed main(){

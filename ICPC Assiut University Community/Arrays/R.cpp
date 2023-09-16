@@ -15,9 +15,15 @@ void solve(){
 signed main(){
     ios :: sync_with_stdio(false); cin.tie(0);
     
-    int tc;
-    cin>>tc;
-    while(tc--){
-        solve();
+    int N;
+    cin>>N;
+    int arr[N];
+    for(int i=0; i<N; i++){
+        cin>>arr[i];
     }
+    int arr2[N];
+    for(int i=0; i<N; i++){
+        cin>>arr2[i];
+    }
+   
 }

@@ -15,9 +15,15 @@ void solve(){
 signed main(){
     ios :: sync_with_stdio(false); cin.tie(0);
     
-    int tc;
-    cin>>tc;
-    while(tc--){
-        solve();
+    int n,m;
+    cin>>n>>m;
+    int ans = 0;
+    for(int a=0;a<=1000;a++){
+        for(int b=0;b<=1000;b++){
+            if(a*a + b == n && a + b*b == m){
+                ans++;
+            }
+        }
     }
+    cout<<ans<<endl;
 }
